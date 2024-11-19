@@ -1,4 +1,4 @@
-﻿namespace PruebaAPI_C.DB
+﻿namespace PruebaAPI_C.Entitites
 {
     public class Usuario
     {

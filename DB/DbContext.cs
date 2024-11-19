@@ -3,7 +3,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using PruebaAPI_C.Entities;
+using PruebaAPI_C.Entitites;
 
 namespace PruebaAPI_C.DB
 {
