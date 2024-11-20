@@ -1,0 +1,15 @@
+CREATE OR REPLACE PROCEDURE public."getPaises"(
+	)
+LANGUAGE 'sql'
+AS $BODY$
+CREATE OR REPLACE PROCEDURE getPaises()
+LANGUAGE plpgsql
+AS $$
+BEGIN
+    PERFORM * FROM Paises;
+	RETURN 1;
+END;
+$$;
+$BODY$;
+ALTER PROCEDURE public."getPaises"()
+    OWNER TO postgres;
