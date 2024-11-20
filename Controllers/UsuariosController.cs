@@ -38,9 +38,7 @@ namespace PruebaAPI_C.Controllers
         [HttpGet]
         public JsonResult Get()
         {
-            _context.Database.ExecuteSqlRaw("CALL getPaises()");
-
-            return new JsonResult(Ok(_context.Paises.ToList()));
+            return new JsonResult(Ok(_context.Usuarios.ToList()));
         }
 
     }
