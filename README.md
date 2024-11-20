@@ -5,6 +5,7 @@ Anotaciones:
 2. Los endpoints permiten consultar Paises, Departamentos, Municipios y Usuarios. También permiten crear usuarios.
 3. Los scripts requeridos para la creación de la base de datos y un ejemplo de stored procedure se encuentran en la carpeta "scripts".
 4. Resumen de patrones de diseño:
+5. 
    -Repositorio: La clase "DbContext.cs" es la encargada de gestionar la conexión a la base de datos.
    
    -Contolador: Se utilizan controladores de cada entidad, que se encuentran en la carpeta "Controllers" los cuales tienen como objetivo manejar las rutas de los endpoints de los servicios expuestos.
