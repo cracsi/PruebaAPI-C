@@ -1,7 +1,7 @@
 Evaluación Técnica Coink
 
 Anotaciones:
-1. La base de datos utilizada fue Postgres
+1. La base de datos utilizada fue Postgres, la creación de la base de datos se hace mediante migraciones que ejecutan los scripts de creación del esquema.
 2. Los endpoints permiten consultar Paises, Departamentos, Municipios y Usuarios. También permiten crear usuarios.
 3. Los scripts requeridos para la creación de la base de datos y un ejemplo de stored procedure se encuentran en la carpeta "scripts".
 4. Resumen de patrones de diseño:
