@@ -3,7 +3,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using PruebaAPI_C.Entitites;
+using PruebaAPI_C.Entities;
 
 namespace PruebaAPI_C.DB
 {
@@ -23,5 +23,20 @@ namespace PruebaAPI_C.DB
         }
 
         public DbSet<Usuario> Usuarios { get; set; }
+
+
+
+        public DbSet<Pais> Paises { get; set; }
+
+        Pais a = new Pais
+        {
+            Nombre="Colombia"
+        };
+      
+
+        public DbSet<Departamento> Departamentos { get; set; }
+
+        public DbSet<Municipio> Municipios { get; set; }
+
     }
 }
